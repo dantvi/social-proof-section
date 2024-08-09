@@ -55,3 +55,23 @@ h2 {
     line-height: 1.666666666666667;
     color: var(--color-neutral-dark-grayish-magenta);
 }
+
+.ratings li {
+    background: var(--color-neutral-light-grayish-magenta);
+    border-radius: 8px;
+    padding: 1.6rem;
+}
+
+.ratings > * + * {
+    margin-top: 1.6rem;
+}
+
+.ratings img {
+    margin: 0 2px;
+}
+
+.ratings span {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 700;
+}
