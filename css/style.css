@@ -1,8 +1,24 @@
+:root {
+    --color-primary-dark-magenta: hsl(300, 43%, 22%);
+    --color-primary-soft-pink: hsl(333, 80%, 67%);
+    --color-neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+    --color-neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+    --color-neutral-white: hsl(0, 0%, 100%);
+}
+
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
     margin: 0;
     min-height: 100vh;
+    font-size: 1.3rem;
 }
